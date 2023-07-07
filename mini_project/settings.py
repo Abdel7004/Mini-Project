@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main_app', # our application here.
-    'first.apps.FirstConfig',
+    # 'first.apps.FirstConfig',
     'corsheaders',
 ]
 
