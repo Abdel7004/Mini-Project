@@ -11,7 +11,9 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 # At the top of the file
 import os
-
+import environ
+environ.Env()
+environ.Env.read_env()
 from pathlib import Path
 import dj_database_url
 
